@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F2952"/>
+      <stop offset="100%" style="stop-color:#0A1F44"/>
+    </linearGradient>
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B35"/>
+      <stop offset="100%" style="stop-color:#F05A28"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Shield Background -->
+  <path fill="url(#shieldGrad)" d="M50 5 C25 5 10 18 10 18 L10 50 C10 78 50 95 50 95 C50 95 90 78 90 50 L90 18 C90 18 75 5 50 5 Z">
+    <animate attributeName="d" 
+             values="M50 5 C25 5 10 18 10 18 L10 50 C10 78 50 95 50 95 C50 95 90 78 90 50 L90 18 C90 18 75 5 50 5 Z;
+                     M50 4 C25 4 9 17 9 17 L9 51 C9 79 50 96 50 96 C50 96 91 79 91 51 L91 17 C91 17 75 4 50 4 Z;
+                     M50 5 C25 5 10 18 10 18 L10 50 C10 78 50 95 50 95 C50 95 90 78 90 50 L90 18 C90 18 75 5 50 5 Z"
+             dur="3s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Tire Ring - Bold and Clear -->
+  <circle cx="50" cy="42" r="24" fill="none" stroke="url(#orangeGrad)" stroke-width="8">
+    <animateTransform attributeName="transform" type="rotate" from="0 50 42" to="360 50 42" dur="8s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Tire Center Hub -->
+  <circle cx="50" cy="42" r="10" fill="url(#shieldGrad)">
+    <animate attributeName="r" values="10;11;10" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="50" cy="42" r="5" fill="url(#orangeGrad)">
+    <animate attributeName="r" values="5;6;5" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Road Lines - Simple and Bold -->
+  <g>
+    <rect x="42" y="72" width="16" height="5" rx="2" fill="#fff" opacity="0.95">
+      <animate attributeName="width" values="16;20;16" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="42;40;42" dur="1.5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="45" y="80" width="10" height="4" rx="2" fill="#fff" opacity="0.7">
+      <animate attributeName="width" values="10;14;10" dur="1.5s" repeatCount="indefinite" begin="0.3s"/>
+      <animate attributeName="x" values="45;43;45" dur="1.5s" repeatCount="indefinite" begin="0.3s"/>
+    </rect>
+    <rect x="47" y="87" width="6" height="3" rx="1.5" fill="#fff" opacity="0.5">
+      <animate attributeName="width" values="6;10;6" dur="1.5s" repeatCount="indefinite" begin="0.6s"/>
+      <animate attributeName="x" values="47;45;47" dur="1.5s" repeatCount="indefinite" begin="0.6s"/>
+    </rect>
+  </g>
+
+  <!-- Checkmark Badge - Safety -->
+  <g transform="translate(75, 20)">
+    <circle cx="0" cy="0" r="10" fill="#10B981">
+      <animate attributeName="r" values="10;11;10" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <path d="M-5 0 L-2 3 L5 -4" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+    <defs>
+        <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#f8fafc;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+
+    <!-- Background -->
+    <rect width="400" height="300" fill="url(#bgGrad2)" />
+
+    <!-- New Tire -->
+    <circle cx="150" cy="150" r="80" fill="#1a1a1a" />
+    <circle cx="150" cy="150" r="65" fill="#2d2d2d" />
+    <circle cx="150" cy="150" r="35" fill="#4a4a4a" />
+    <circle cx="150" cy="150" r="20" fill="#666" />
+
+    <!-- Tire Tread -->
+    <g stroke="#1a1a1a" stroke-width="2">
+        <line x1="150" y1="70" x2="150" y2="85" />
+        <line x1="150" y1="215" x2="150" y2="230" />
+        <line x1="70" y1="150" x2="85" y2="150" />
+        <line x1="215" y1="150" x2="230" y2="150" />
+    </g>
+
+    <!-- Arrow indicating installation -->
+    <g fill="#F05A28">
+        <polygon points="270,150 310,130 310,145 370,145 370,155 310,155 310,170" />
+    </g>
+
+    <!-- Car wheel hub -->
+    <circle cx="320" cy="150" r="50" fill="#0A1F44" opacity="0.2" />
+    <circle cx="320" cy="150" r="35" fill="#0A1F44" opacity="0.3" />
+    <circle cx="320" cy="150" r="8" fill="#0A1F44" />
+    <!-- Lug nuts -->
+    <circle cx="320" cy="125" r="5" fill="#0A1F44" />
+    <circle cx="344" cy="140" r="5" fill="#0A1F44" />
+    <circle cx="338" cy="168" r="5" fill="#0A1F44" />
+    <circle cx="302" cy="168" r="5" fill="#0A1F44" />
+    <circle cx="296" cy="140" r="5" fill="#0A1F44" />
+
+    <!-- Service Text -->
+    <text x="200" y="280" text-anchor="middle" fill="#0A1F44" font-family="Arial, sans-serif"
+        font-size="16" font-weight="bold">Tire Installation</text>
+</svg>

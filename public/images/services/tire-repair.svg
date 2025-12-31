@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+    <defs>
+        <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#f8fafc;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+
+    <!-- Background -->
+    <rect width="400" height="300" fill="url(#bgGrad)" />
+
+    <!-- Tire -->
+    <circle cx="200" cy="150" r="100" fill="#1a1a1a" />
+    <circle cx="200" cy="150" r="80" fill="#2d2d2d" />
+    <circle cx="200" cy="150" r="40" fill="#4a4a4a" />
+    <circle cx="200" cy="150" r="25" fill="#666" />
+
+    <!-- Tire Tread Pattern -->
+    <g stroke="#1a1a1a" stroke-width="3" fill="none">
+        <path d="M200 50 L200 70" />
+        <path d="M200 230 L200 250" />
+        <path d="M100 150 L120 150" />
+        <path d="M280 150 L300 150" />
+        <path d="M129 79 L143 93" />
+        <path d="M257 207 L271 221" />
+        <path d="M271 79 L257 93" />
+        <path d="M143 207 L129 221" />
+    </g>
+
+    <!-- Repair Tool -->
+    <g transform="translate(280, 80) rotate(45)">
+        <rect x="0" y="0" width="15" height="80" rx="3" fill="#F05A28" />
+        <rect x="-5" y="70" width="25" height="30" rx="2" fill="#0A1F44" />
+    </g>
+
+    <!-- Patch Icon -->
+    <rect x="170" y="120" width="60" height="60" rx="5" fill="#F05A28" opacity="0.3" />
+    <text x="200" y="158" text-anchor="middle" fill="#F05A28" font-family="Arial, sans-serif"
+        font-size="24" font-weight="bold">✓</text>
+
+    <!-- Service Text -->
+    <text x="200" y="280" text-anchor="middle" fill="#0A1F44" font-family="Arial, sans-serif"
+        font-size="16" font-weight="bold">Tire Repair</text>
+</svg>

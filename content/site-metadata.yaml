@@ -1,0 +1,36 @@
+brand_name: "RoadSafe Mobile Tire & Auto"
+domain_name_suggestions:
+  - "roadsafemobile.com"
+  - "roadsafetire.com"
+  - "roadsafeauto.com"
+  - "roadsafemobiletire.com"
+logo_concept: "A shield combined with a tire symbol to emphasize safety and reliability. The logo should convey motion (a road) and trustworthiness, using the brand colors."
+color_palette:
+  primary: "Navy Blue (#0A1F44)"
+  secondary: "Safety Orange (#F05A28)"
+  accent: "White (#FFFFFF)"
+pages:
+  - name: home
+    heading: "On-Site Tire Service Anytime, Anywhere"
+    description: "Homepage with a hero image, tagline, and an overview of services and key benefits."
+  - name: about_us
+    heading: "Committed to Your Safety"
+    description: "Page outlining the company's history, mission, and values, highlighting experience and dedication to safety."
+  - name: services
+    heading: "Mobile Tire & Auto Services"
+    description: "Overview of all services offered, each with a description and notes on safety/legal compliance."
+  - name: gallery
+    heading: "RoadSafe in Action"
+    description: "Photo gallery showcasing the mobile service team at work and equipment in use."
+  - name: reviews
+    heading: "Testimonials"
+    description: "Customer reviews page with testimonials and ratings from clients."
+  - name: contact_us
+    heading: "Contact Us"
+    description: "Contact information, service area coverage details, and licensing/compliance disclaimers."
+contact_details:
+  phone: "905-555-1234"
+  email: "info@roadsafemobile.com"
+  address: "Hamilton, ON (Mobile Service - We Come to You)"
+  hours: "24/7"
+service_area_summary: "Serving Hamilton, Burlington, and surrounding communities."

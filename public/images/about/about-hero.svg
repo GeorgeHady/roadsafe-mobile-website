@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+    <defs>
+        <linearGradient id="aboutBg" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#0A1F44;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#1a3a6e;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+
+    <!-- Background -->
+    <rect width="600" height="400" fill="url(#aboutBg)" />
+
+    <!-- Decorative circles -->
+    <circle cx="500" cy="80" r="150" fill="#F05A28" opacity="0.1" />
+    <circle cx="100" cy="350" r="120" fill="#F05A28" opacity="0.1" />
+
+    <!-- Shield with tire -->
+    <g transform="translate(200, 50)">
+        <!-- Shield shape -->
+        <path d="M100 0 L200 30 L200 150 Q200 250 100 300 Q0 250 0 150 L0 30 Z" fill="#F05A28" />
+        <path d="M100 15 L185 42 L185 148 Q185 235 100 280 Q15 235 15 148 L15 42 Z" fill="#0A1F44" />
+
+        <!-- Tire in shield -->
+        <circle cx="100" cy="140" r="70" fill="#1a1a1a" />
+        <circle cx="100" cy="140" r="55" fill="#2d2d2d" />
+        <circle cx="100" cy="140" r="30" fill="#4a4a4a" />
+        <circle cx="100" cy="140" r="18" fill="#0A1F44" />
+
+        <!-- RS Logo in center -->
+        <text x="100" y="148" text-anchor="middle" fill="#F05A28" font-family="Arial, sans-serif"
+            font-size="20" font-weight="bold">RS</text>
+
+        <!-- Tread marks -->
+        <g stroke="#1a1a1a" stroke-width="3">
+            <line x1="100" y1="70" x2="100" y2="85" />
+            <line x1="100" y1="195" x2="100" y2="210" />
+            <line x1="30" y1="140" x2="45" y2="140" />
+            <line x1="155" y1="140" x2="170" y2="140" />
+        </g>
+
+        <!-- Checkmark -->
+        <circle cx="160" cy="80" r="25" fill="#4CAF50" />
+        <path d="M148 80 L157 90 L175 70" stroke="#fff" stroke-width="4" fill="none" />
+    </g>
+
+    <!-- Company name -->
+    <text x="300" y="380" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif"
+        font-size="28" font-weight="bold">ROADSAFE</text>
+    <text x="300" y="395" text-anchor="middle" fill="#F05A28" font-family="Arial, sans-serif"
+        font-size="12">Mobile Tire & Auto</text>
+
+    <!-- Stats -->
+    <g transform="translate(50, 320)">
+        <text x="0" y="0" fill="#F05A28" font-family="Arial, sans-serif" font-size="24"
+            font-weight="bold">10+</text>
+        <text x="0" y="18" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">Years
+            Experience</text>
+    </g>
+
+    <g transform="translate(480, 320)">
+        <text x="0" y="0" fill="#F05A28" font-family="Arial, sans-serif" font-size="24"
+            font-weight="bold">24/7</text>
+        <text x="0" y="18" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">Always
+            Available</text>
+    </g>
+</svg>
